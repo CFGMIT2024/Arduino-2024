@@ -1,29 +1,27 @@
 /**********************************************************************************
 **                                                                               **
-**                          Control Structures                                   **
+**                      Estructures de Control                                   **
 **                                                                               **
 **                                                                               **
 **********************************************************************************/
 
-//********** Includes *************************************************************
+//********** Incloure **************************************************************
 
 //********** Variables ************************************************************
 int tempAigua = 101;
 
-//********** Setup ****************************************************************
-void setup()              // run once, when the sketch starts
+//********** Configuració ********************************************************
+void setup()              // s'executa una sola vegada, quan comença el programa
 {
-  Serial.begin(9600);     // set up Serial library at 9600 bps
+  Serial.begin(9600);     // Configura la biblioteca Serial a 9600 bps
 
   if (tempAigua > 100)
   {
-    Serial.print("Aigua supera els 100C, esta bullint!");
+    Serial.print("Aigua supera els 100C, està bullint!");
   } 
 }
 
-//********** Loop *****************************************************************
-void loop()   // we need this to be here even though its empty
+//********** Bucle *****************************************************************
+void loop()   // necessitem això encara que estigui buit
 {
 }
-
-//********** Funcions *************************************************************
