@@ -16,7 +16,7 @@ void setup() {
 
 //********** Loop *****************************************************************
 void loop() {
-  // Determina la qualificació energètica basada en els intervals especificats
+  // Creem intervals
   if (kgCO2_per_m2 < 3.5) {
     Serial.println("Qualificació Energètica: A");
   } else if (kgCO2_per_m2 < 6.5) {
