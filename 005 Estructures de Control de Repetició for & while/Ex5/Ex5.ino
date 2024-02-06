@@ -12,9 +12,9 @@ int inicioTabla = 2;
 int finTabla = 10;
 
 //********** Setup ****************************************************************
-void setup()      // run once, when the sketch starts
+void setup()      // sempre
 {
-  Serial.begin(9600);     // set up Serial library at 9600 bps
+  Serial.begin(9600);     //  9600 bps
 
   for (int taula = inicioTabla; taula <= finTabla; taula++)
   {
