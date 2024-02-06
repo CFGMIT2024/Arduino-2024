@@ -33,10 +33,6 @@ void setup()      // run once, when the sketch starts
     Serial.println(); // per afeixir una linia blanca entre taulas
   }
 
-  
-  while (true) {
-    // Esto evitará que el programa entre en el bucle de loop repetidamente
-  }
 }
 
 //********** Loop *****************************************************************
