@@ -1,4 +1,4 @@
-int comptar = 11;
+int comptar = 11;  //
 void setup()                // run once, when the sketch starts
 {
   Serial.begin(9600);       // set up Serial library at 9600 bps
