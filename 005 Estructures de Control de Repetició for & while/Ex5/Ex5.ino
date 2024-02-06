@@ -30,16 +30,16 @@ void setup()      // run once, when the sketch starts
       Serial.print(" = ");
       Serial.println(taula * i);
     }
-    Serial.println(); // Añadir una línea en blanco entre tablas para mayor claridad
+    Serial.println(); // per afeixir una linia blanca entre taulas
   }
 
-  // Salir después de imprimir las tablas
+  
   while (true) {
     // Esto evitará que el programa entre en el bucle de loop repetidamente
   }
 }
 
 //********** Loop *****************************************************************
-void loop()   // we need this to be here even though its empty
+void loop()   // sempre
 {
 }
