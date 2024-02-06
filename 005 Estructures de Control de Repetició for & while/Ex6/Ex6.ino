@@ -1,4 +1,4 @@
-int comptar = 11;
+int comptar = 11;// Marc Alvarez
 int i = 0;
 void setup()               // run once, when the sketch starts
 {
